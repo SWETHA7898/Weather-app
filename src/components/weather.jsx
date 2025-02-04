@@ -50,6 +50,7 @@ function Weather() {
                     windSpeed: success.data.wind.speed,
                     temperature: success.data.main.temp,
                     location: success.data.name,
+                    desc:success.data.weather[0].description,
                     icon: icon,
                 })
             })
@@ -74,6 +75,8 @@ function Weather() {
                     <img src={weather.icon} alt="" className="weather-icon"></img>
                     <p className="temp">{weather.temperature}&deg;c</p>
                     <p className="location">{weather.location}</p>
+                    <p className="desc">{weather.desc}</p>
+                    
                     <div className="weather-data">
                         <div className="col">
                             <img src={humidity} alt=""></img>

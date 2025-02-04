@@ -40,8 +40,12 @@
     color:#fff;
     font-size: 80px;
     line-height: 1;
-}
+} 
 .location{
+    color: #fff;
+    font-size: 40px;
+}
+.desc{
     color: #fff;
     font-size: 40px;
 }

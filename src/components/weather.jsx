@@ -68,7 +68,7 @@ function Weather() {
                 <i className="fa-solid fa-magnifying-glass" onClick={getWeather}></i>
             </div>
 
-            {error && <p className="error" style={{color:"#fff",fontSize:"30px",marginTop:"10px"}}>{error}</p>}  {/* Display error message */}
+            {error && <p className="error" style={{color:"#3F6256",fontSize:"30px",marginTop:"10px"}}>{error}</p>}  {/* Display error message */}
 
             {weather ? (
                 <>
